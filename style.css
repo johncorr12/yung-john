@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+header{
+    background: url(assets/bg-hero-mobile.svg) cornflowerblue no-repeat;
+}
+nav{
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    margin-top: 1rem;
+}
+nav img{
+    width: 5rem;
+}
+nav button{
+    background-color: #FEFFFF;
+    border-radius: 18px;
+    width: 32%;
+    padding: 5px;
+    border: white;
+    box-shadow: -1px 2px 10px 1px grey;
+}
