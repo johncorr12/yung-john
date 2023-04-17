@@ -40,7 +40,7 @@ nav img{
 }
 
 .hero-section h2{
-    width: 75%;
+    width: 100%;
     margin: auto;
     line-height: 2rem;
     margin-top: 2.5rem;
@@ -199,14 +199,16 @@ nav img{
 
 }
 .footer-word{
-    margin-top: 3rem;
+      margin-top: 3rem;
     margin-bottom: 5rem;
     line-height: 2rem;
     font-size: 1.2rem;
     font-weight: 300;
 }
-/* 
-   @media screen and (min-width: 1024px){
+
+
+
+   /* @media screen and min-width: 1024px){
      nav .btn{
         width: 10%;
         position: absolute;
@@ -217,15 +219,18 @@ nav img{
     /* .hero-section */
     /* .hero-section{ */
         /* display: flex; */
+    /* } */
     
     /* .hero-content{ */
         /* margin-top: 4rem; */
-        /* margin-right:24rem ; */
+        /* margin-right:24rem; */
+    
     
 /* .hero-section h2{ */
-    /* width: 60%; */
+    /* width: 100%; */
     /* line-height: 2rem; */
-    /* margin-right: 7rem; */
+    /* margin-left: 5rem; */
+
 
 
 /* .hero-section p{ */
@@ -233,6 +238,7 @@ nav img{
     /* margin-top: 1.3rem; */
     /* line-height: 1.3rem; */
     /* margin-left: 3.5rem; */
+
 
 /* .hero-content >button{ */
     /* height: 2.8rem; */
@@ -245,10 +251,7 @@ nav img{
 /* .hero-section .img{ */
     /* margin-top: 1.5rem; */
     /* width: 40%; */
-    /* margin-right: 0rem; */
+    /* margin-right: 0rem;  */
 
 
 
-
-
-    
