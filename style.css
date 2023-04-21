@@ -17,17 +17,17 @@ header{
 
 nav button{
     background-color: #fefefe;
-    border-radius: 18px;
-    width: 40%;
-    padding: 2px;
+    border-radius: 25px;
+    width: 30%;
+    padding: 5px;
     border: white;
     box-shadow: -1px 2px 10px 1px grey;
-    margin-left: 5rem;
+    margin-left: 7.5rem;
     
 }
 nav .btn{
 position: absolute;
-top: 2.5rem;
+top: 2.3rem;
 }
 
 nav img{
@@ -40,14 +40,14 @@ nav img{
 }
 
 .hero-section h2{
-    width: 100%;
+    width:70%;
     margin: auto;
     line-height: 2rem;
     margin-top: 2.5rem;
 }
 
 .hero-section p{
-    width: 70%;
+    width: 67%;
     margin: auto;
     text-align: center;
     margin-top: 1.3rem;
@@ -76,7 +76,7 @@ nav img{
     text-align: center;
     box-shadow: -1px 1px 5px rgb(226, 225);
     border-radius: 10px;
-    margin-top: 2.4rem;
+    margin-top: 5rem;
 }
 
 .cards img{
@@ -90,7 +90,7 @@ nav img{
 .cards p{
     line-height: 1.5rem;
     color: hsl(208, 11%, 55%);
-    width: 125%;
+    width: 110%;
     line-height: 20px;
 }
 .card-1{
@@ -106,11 +106,14 @@ nav img{
     line-height: 20px;
 
 }
+.card-2 h2{
+    margin-top: 3rem;
+}
 .card-3{
     box-shadow: -1px 1px 5px rgb(226, 225, 225);
 }
 .card-3 P{
-    width: 110%;
+    width: 100%;
     line-height: 20px;
 }
 .footer{
@@ -185,18 +188,16 @@ nav img{
 }
 .social{
     text-align: center;
-    margin-top: -3rem;
-    
     
 }
 .social p{
     margin-top:2rem;
 }
 .social img{
-    width: 30px;
+    width: 40px;
     border-radius: 2rem;
     background-color: white;
-
+    margin-left: 1rem;
 }
 .footer-word{
       margin-top: 3rem;
@@ -208,50 +209,120 @@ nav img{
 
 
 
-   /* @media screen and min-width: 1024px){
-     nav .btn{
-        width: 10%;
-        position: absolute;
-        top: 3rem;
-        margin-left: 33rem;  
+
+     @media screen and (min-width: 1024px){ 
+        .hud{
+            width: 15%;
+        }
+        .hero-section{
+            display: flex;
+            
+        }
+        .hero-content{
+            width: 60%;
+            margin-right: 8rem;
+        }
+        .btn{
+            margin-left: 45%;         
+        }
+        .hero-content h2{
+            margin-top: 5rem;
+            width: 70%;
+            margin-left: 2.4rem;
+        }
+        .hero-content p{
+            margin-left: 3rem;
+            width: 105%;
+        }
+        .image img{
+            width: 70%;
+            margin-left: -9rem;
+            margin-top: 2.5rem;
+
+        
+        }
+
+        .cards{
+            display: flex;
+            flex-direction: row-reverse;
+        }
+        .card-content h2{
+            margin-right: 22rem;
+        }
+        .card-content{
+            margin-top: 2rem;
+        }
+        .card-content p{
+            width: 60%;
+            margin-left: 3rem;
+        }
+        .card-img{
+           width: 50%; 
+        }
+        .card-2{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .flowing h2{
+            margin-top: 3rem;
+        }
+        .flowing p{
+            width: 70%;
+            margin-left: 11rem;
+
+        }
+        .flowing-pic{
+            width: 60%;
+            margin-left: 2rem;
+        }
+        .card-3 h2{
+            margin-right: 13rem;
+        }
+        .card-3 p{
+            width: 90%;
+            margin-left: 2.5rem;
+        }
+        .user-img{
+            margin-right: -2rem;
+        }
+        .footer{
+            height: 50rem;
+        }
+        .ready{
+            width: 50%;
+            margin-left: 10rem;
+        }
+        .build{
+            width: 100%;
+            margin-left: 5rem;
+        }
+        .free{
+            width: 50%;
+            margin-left:8rem ;
+        }
+        
+        .logo{
+            width: 25%;
+        }
+        .footer-img{
+            width: 20px;
+        }
+        .location-p{
+            width: 35%;
+        }
+        .footer-word{
+             display: flex;
+             margin-left: 25rem; 
+             margin-top: -10rem;
+             gap: 6rem;
+        }
+        .social{
+            margin-left: 40rem;
+            margin-top: -11rem;  
+        }
+        .finish{
+            margin-top: 20rem;
+        }
+        
     }
-
-    /* .hero-section */
-    /* .hero-section{ */
-        /* display: flex; */
-    /* } */
-    
-    /* .hero-content{ */
-        /* margin-top: 4rem; */
-        /* margin-right:24rem; */
-    
-    
-/* .hero-section h2{ */
-    /* width: 100%; */
-    /* line-height: 2rem; */
-    /* margin-left: 5rem; */
-
-
-
-/* .hero-section p{ */
-    /* width: 100%; */
-    /* margin-top: 1.3rem; */
-    /* line-height: 1.3rem; */
-    /* margin-left: 3.5rem; */
-
-
-/* .hero-content >button{ */
-    /* height: 2.8rem; */
-    /* border-radius: 10rem; */
-    /* margin-right: 6rem; */
-    /* width: 50%; */
-    /* color: #ffd0ff; */
-    /* background-color: hsl(322, 100%, 66%); */
-
-/* .hero-section .img{ */
-    /* margin-top: 1.5rem; */
-    /* width: 40%; */
-    /* margin-right: 0rem;  */
-
-
-
