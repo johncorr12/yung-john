@@ -309,13 +309,13 @@ nav img{
             width: 20px;
         }
         .location-p{
-            width: 35%;
+            width: 30%;
         }
         .footer-word{
              display: flex;
-             margin-left: 25rem; 
+             margin-left: 20rem; 
              margin-top: -10rem;
-             gap: 6rem;
+             gap: 3rem;
         }
         .social{
             margin-left: 40rem;
